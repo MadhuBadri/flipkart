@@ -18,7 +18,7 @@ pipeline {
 //				sh '${MAVEN_HOME}/bin/mvn install'
 				sh '/home/softwares/apache-maven-3.5.4/bin/mvn install'
                   sh 'sshpass -p "madhu" scp /home/Builds/workspace/gamutkart1/target/MavenWebProject.war /home/softwares/apache-tomcat-8.5.33/webapps'
-                 sh 'sshpass -p "madhu" ssh Madhu@172.17.0.2 "JAVA_HOME=/home/softwares/jdk1.8.0_181" "/home/softwares/apache-tomcat-8.5.33/bin/startup.sh"'
+                 sh 'sshpass -p "madhu" "JAVA_HOME=/home/softwares/jdk1.8.0_181" "/home/softwares/apache-tomcat-8.5.33/bin/startup.sh"'
 	        }
 		}
 	}
