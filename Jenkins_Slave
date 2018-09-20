@@ -17,7 +17,7 @@ pipeline {
 	        steps {
 //				sh '${MAVEN_HOME}/bin/mvn install'
 				sh '/home/softwares/apache-maven-3.5.4/bin/mvn install'
-                  sh 'sshpass -p "madhu" scp /home/Builds/workspace/gamutkart1/target/MavenWebProject.war /home/softwares/apache-tomcat-8.5.33/webapps'
+                  sh 'sshpass -p "madhu" scp /home/Builds/workspace/gamutkart_pipeline_project/target/MavenWebProject.war home/softwares/apache-tomcat-8.5.33/webapps'
                  sh 'sshpass -p "madhu" "/home/softwares/apache-tomcat-8.5.33/bin/startup.sh"'
 	        }
 		}
