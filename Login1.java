@@ -5,7 +5,11 @@ public class Login1
 	 system.out.println("Hi How are you");
 	 system.out.println("what are u doing now");
 <<<<<<< HEAD
+<<<<<<< HEAD
 	 system.out.println("I am learning Oracle,,,");
+=======
+	 system.out.println("I am learning shell,,,");
+>>>>>>> dev_1.2.3
 =======
 	 system.out.println("I am learning shell,,,");
 >>>>>>> dev_1.2.3
