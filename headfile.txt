@@ -1,0 +1,27 @@
+be2e421 Merging 4 commits into 1
+243f244 Added the complete path for restart
+b342e1a Added sshpass
+6b20acd added the comments in jenkins_slave file
+c9edb92 Added the slave copying path
+ed1a762 Added the mvn correct path
+b049aee Added the mvn path in slave
+e17cbce Added label to Jenkins Slave file
+bf518e9 Added Jenkins Slave file
+691ec83 Added the Jenkins file into Git
+9c8af51 Corrected the colons
+6fecb4a Addedcomments
+580f7bc Added the javapath
+78ffd1d Added the  carot symbol
+7da2dd8 Gave  persmissions
+8add1c9 Added the shell scripting files
+a3a55f0 Added the web pom.xml and src file
+61162d8 Removed the Webproject
+ea278ef Merge branch 'master' of https://github.com/MadhuBadri/flipkart
+de67c41 Removed the srcfile
+adf5bf6 Delete pom.xml
+aae0ca3 Added Webproject
+3e8f3bf Adding pom and source filesto git
+4c8b06b Added another line for printing
+726d14f Added the publickstaticvoidmain
+1364ced created first file in edureka project
+2ebfccd Login page was created for flipkart
